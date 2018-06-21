@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/chapter1/chapter1.iml" filepath="$PROJECT_DIR$/chapter1/chapter1.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-eureka/demo-eureka.iml" filepath="$PROJECT_DIR$/demo-eureka/demo-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-eureka-client/demo-eureka-client.iml" filepath="$PROJECT_DIR$/demo-eureka-client/demo-eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-eureka-consumer/demo-eureka-consumer.iml" filepath="$PROJECT_DIR$/demo-eureka-consumer/demo-eureka-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-eureka/demoeureka.iml" filepath="$PROJECT_DIR$/demo-eureka/demoeureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-eureka-client/demoeurekaclient.iml" filepath="$PROJECT_DIR$/demo-eureka-client/demoeurekaclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-eureka-consumer/demoeurekaconsumer.iml" filepath="$PROJECT_DIR$/demo-eureka-consumer/demoeurekaconsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud.iml" />
     </modules>
   </component>
