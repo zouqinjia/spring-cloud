@@ -1,8 +1,27 @@
+spring:
+  application:
+    name: eureka-server-high-avaliablity
+  profiles:
+    active: peer1
+---
 server:
   port: 8761
 eureka:
+  instance:
+    hostname: peer1
   client:
-    fetch-registry: false
     service-url:
-          defaultZone: http://dcop:123456@127.0.0.1:8761/eureka
-    register-with-eureka: false
+      defaultZone: http://user:1234@peer2:8762/eureka/
+spring:
+  profiles: peer1
+---
+server:
+  port: 8762
+eureka:
+  instance:
+    hostname: peer2
+  client:
+    service-url:
+      defaultZone: http://user:1234@peer1:8761/eureka/
+spring:
+  profiles: peer2
