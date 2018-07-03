@@ -12,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/demo-eureka/demoeureka.iml" filepath="$PROJECT_DIR$/demo-eureka/demoeureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-eureka-client/demoeurekaclient.iml" filepath="$PROJECT_DIR$/demo-eureka-client/demoeurekaclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-eureka-consumer/demoeurekaconsumer.iml" filepath="$PROJECT_DIR$/demo-eureka-consumer/demoeurekaconsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign/feign.iml" filepath="$PROJECT_DIR$/feign/feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-demo/hystrix-demo.iml" filepath="$PROJECT_DIR$/hystrix-demo/hystrix-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud.iml" />
     </modules>
   </component>

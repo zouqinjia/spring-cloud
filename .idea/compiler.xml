@@ -16,6 +16,8 @@
         <module name="demoeureka" />
         <module name="demoeurekaclient" />
         <module name="demoeurekaconsumer" />
+        <module name="feign" />
+        <module name="hystrix-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,6 +31,8 @@
       <module name="demoeureka" target="1.8" />
       <module name="demoeurekaclient" target="1.8" />
       <module name="demoeurekaconsumer" target="1.8" />
+      <module name="feign" target="1.8" />
+      <module name="hystrix-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

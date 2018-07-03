@@ -4,6 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.feign.EnableFeignClients;
+import org.springframework.cloud.netflix.feign.FeignClient;
 
 /**
  * @EnableEurekaClient 注解替代@EnableDiscoveryClient.在Spring Cloud中，
@@ -12,6 +14,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * @EnableEurekaClient 表明是Eureka的Client
  */
 
+@EnableFeignClients
 @EnableDiscoveryClient
 @SpringBootApplication
 public class Chapter2EurekaClientApplication {

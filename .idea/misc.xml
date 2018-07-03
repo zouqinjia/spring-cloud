@@ -75,6 +75,8 @@
         <option value="$PROJECT_DIR$/chapter2-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/chapter2-eureka-client/pom.xml" />
         <option value="$PROJECT_DIR$/chapter5-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/feign/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-demo/pom.xml" />
       </list>
     </option>
   </component>

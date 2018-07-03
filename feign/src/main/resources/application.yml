@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: feign-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://dcop:123456@localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
